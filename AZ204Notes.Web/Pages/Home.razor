@@ -1,0 +1,63 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<MudContainer Class="mt-8">
+    <MudText Typo="Typo.h2" Align="Align.Center" GutterBottom="true">
+        Welcome to AZ-204 Notes
+    </MudText>
+
+    <MudText Typo="Typo.h6" Align="Align.Center" Color="Color.Secondary" Class="mb-8">
+        A practice project to develop .NET skills and study for the Microsoft Azure Developer certification
+    </MudText>
+
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">📚 Study Resources</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText>Access Azure documentation and learning materials</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">☁️ Azure Services</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText>Practice with Azure App Services, Functions, and more</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Explore</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">🎯 Exam Prep</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText>Track your progress through AZ-204 exam topics</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Start</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+</MudContainer>

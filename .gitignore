@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/AZ204Notes.API
+/AZ204Notes.Web/appsettings.json
+/AZ204Notes.Web/appsettings.development.json

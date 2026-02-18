@@ -3,4 +3,5 @@
   <Project Path="AZ204Notes.Application/AZ204Notes.Application.csproj" />
   <Project Path="AZ204Notes.Domain/AZ204Notes.Domain.csproj" />
   <Project Path="AZ204Notes.Infrastructure/AZ204Notes.Infrastructure.csproj" />
+  <Project Path="AZ204Notes.Web/AZ204Notes.Web.csproj" />
 </Solution>
